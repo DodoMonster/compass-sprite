@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/* 配置间距*/
+/* 配置位置*/
+/* 配置sprite的布局方式*/
+/* vertical/horizontal/diagonal/smart*/
+/* 自动输出尺寸*/
+.setting-sprite, .setting-chuyunhu, .setting-feifeitu, .setting-humei, .setting-longmao, .setting-longxuanfeng, .setting-miaomiao {
+  background-image: url('../images/setting-s9e27bf39d0.png');
+  background-repeat: no-repeat;
+}
+
+.setting-chuyunhu {
+  background-position: -5px 0;
+  height: 64px;
+  width: 64px;
+}
+.setting-chuyunhu:active, .setting-chuyunhu.chuyunhu-active {
+  background-position: -5px -69px;
+}
+
+.setting-feifeitu {
+  background-position: -5px -138px;
+  height: 64px;
+  width: 64px;
+}
+.setting-feifeitu:active, .setting-feifeitu.feifeitu-active {
+  background-position: -5px -207px;
+}
+
+.setting-humei {
+  background-position: -5px -276px;
+  height: 64px;
+  width: 64px;
+}
+.setting-humei:active, .setting-humei.humei-active {
+  background-position: -5px -345px;
+}
+
+.setting-longmao {
+  background-position: -5px -414px;
+  height: 64px;
+  width: 64px;
+}
+.setting-longmao:active, .setting-longmao.longmao-active {
+  background-position: -5px -483px;
+}
+
+.setting-longxuanfeng {
+  background-position: -5px -552px;
+  height: 64px;
+  width: 64px;
+}
+.setting-longxuanfeng:active, .setting-longxuanfeng.longxuanfeng-active {
+  background-position: -5px -621px;
+}
+
+.setting-miaomiao {
+  background-position: -5px -690px;
+  height: 64px;
+  width: 64px;
+}
+.setting-miaomiao:active, .setting-miaomiao.miaomiao-active {
+  background-position: -5px -759px;
+}
+
+/* 测试此段代码时应将$setting-sprite-dimensions值设为false*/
+/* .test-special {*/
+/* 	@include setting-sprite(compass);*/
+/* 	width: setting-sprite-width(compass);*/
+/* 	height: setting-sprite-height(compass);*/
+/* }*/

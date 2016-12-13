@@ -1,0 +1,46 @@
+.magic-sprite, .magic-chuyunhu, .magic-feifeitu, .magic-humei, .magic-longmao, .magic-longxuanfeng, .magic-miaomiao {
+  background-image: url('../images/magic-s2c8dc9d767.png');
+  background-repeat: no-repeat;
+}
+
+.magic-chuyunhu {
+  background-position: 0 0;
+}
+.magic-chuyunhu:active, .magic-chuyunhu.chuyunhu-active {
+  background-position: 0 -64px;
+}
+
+.magic-feifeitu {
+  background-position: 0 -128px;
+}
+.magic-feifeitu:active, .magic-feifeitu.feifeitu-active {
+  background-position: 0 -192px;
+}
+
+.magic-humei {
+  background-position: 0 -256px;
+}
+.magic-humei:active, .magic-humei.humei-active {
+  background-position: 0 -320px;
+}
+
+.magic-longmao {
+  background-position: 0 -384px;
+}
+.magic-longmao:active, .magic-longmao.longmao-active {
+  background-position: 0 -448px;
+}
+
+.magic-longxuanfeng {
+  background-position: 0 -512px;
+}
+.magic-longxuanfeng:active, .magic-longxuanfeng.longxuanfeng-active {
+  background-position: 0 -576px;
+}
+
+.magic-miaomiao {
+  background-position: 0 -640px;
+}
+.magic-miaomiao:active, .magic-miaomiao.miaomiao-active {
+  background-position: 0 -704px;
+}

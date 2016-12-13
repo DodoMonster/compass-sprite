@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* 加载compass sprites模块*/
+.test-sprite, .test-chuyunhu, .test-feifeitu, .test-humei, .test-longmao, .test-longxuanfeng, .test-miaomiao {
+  background-image: url('../images/test-sb9515b4960.png');
+  background-repeat: no-repeat;
+}
+
+/* 导入test目录下所有png图片*/
+.test-chuyunhu {
+  background-position: 0 0;
+}
+.test-chuyunhu:active, .test-chuyunhu.chuyunhu-active {
+  background-position: 0 -64px;
+}
+
+.test-feifeitu {
+  background-position: 0 -128px;
+}
+.test-feifeitu:active, .test-feifeitu.feifeitu-active {
+  background-position: 0 -192px;
+}
+
+.test-humei {
+  background-position: 0 -256px;
+}
+.test-humei:active, .test-humei.humei-active {
+  background-position: 0 -320px;
+}
+
+.test-longmao {
+  background-position: 0 -384px;
+}
+.test-longmao:active, .test-longmao.longmao-active {
+  background-position: 0 -448px;
+}
+
+.test-longxuanfeng {
+  background-position: 0 -512px;
+}
+.test-longxuanfeng:active, .test-longxuanfeng.longxuanfeng-active {
+  background-position: 0 -576px;
+}
+
+.test-miaomiao {
+  background-position: 0 -640px;
+}
+.test-miaomiao:active, .test-miaomiao.miaomiao-active {
+  background-position: 0 -704px;
+}
+
+/* 输出所有的雪碧图css*/

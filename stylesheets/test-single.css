@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* 加载compass sprites模块*/
+.test-sprite, .chuyunhu .test-chuyunhu {
+  background-image: url('../images/test-sb9515b4960.png');
+  background-repeat: no-repeat;
+}
+
+/* 导入test目录下所有png图片*/
+.chuyunhu .test-chuyunhu {
+  background-position: 0 0;
+}
+.chuyunhu .test-chuyunhu:active, .chuyunhu .test-chuyunhu.chuyunhu-active {
+  background-position: 0 -64px;
+}
